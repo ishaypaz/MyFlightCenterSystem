@@ -44,11 +44,11 @@
     <Compile Include="DAO\AirlineDAOMSSQL.cs" />
     <Compile Include="DAO\CustomeDAOMSSQL.cs" />
     <Compile Include="DAO\FlightDAOMSSQL.cs" />
-    <Compile Include="DAO\IAirlineDAO.cs" />
-    <Compile Include="DAO\ICountryDAO.cs" />
-    <Compile Include="DAO\ICustomerDAO.cs" />
-    <Compile Include="DAO\IFlightDAO.cs" />
-    <Compile Include="DAO\ITicketDAO.cs" />
+    <Compile Include="IDAO\IAirlineDAO.cs" />
+    <Compile Include="IDAO\ICountryDAO.cs" />
+    <Compile Include="IDAO\ICustomerDAO.cs" />
+    <Compile Include="IDAO\IFlightDAO.cs" />
+    <Compile Include="IDAO\ITicketDAO.cs" />
     <Compile Include="DAO\TicketDAOMSSQL.cs" />
     <Compile Include="Facade\AnonymousUserFacade.cs" />
     <Compile Include="Facade\FacadeBase.cs" />
@@ -57,8 +57,8 @@
     <Compile Include="Facade\LoggedInAdministratorFacade.cs" />
     <Compile Include="Login\LoginService.cs" />
     <Compile Include="Login\LoginToken.cs" />
-    <Compile Include="Login\UserNotFoundException.cs" />
-    <Compile Include="Login\WorngPasswordException.cs" />
+    <Compile Include="Exceotins\UserNotFoundException.cs" />
+    <Compile Include="Exceotins\WorngPasswordException.cs" />
     <Compile Include="POCO\AirlineCompany.cs" />
     <Compile Include="POCO\Country.cs" />
     <Compile Include="POCO\Customer.cs" />

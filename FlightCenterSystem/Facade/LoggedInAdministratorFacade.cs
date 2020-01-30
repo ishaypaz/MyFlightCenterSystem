@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FlightCenterSystem.Facade
 {
-    public class LoggedInAdministratorFacade : ILoggedInAdministratorFacade
+     class LoggedInAdministratorFacade : ILoggedInAdministratorFacade
     {
     }
 }

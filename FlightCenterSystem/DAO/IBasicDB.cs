@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FlightCenterSystem
 {
-    public interface IBasicDB <T>
+    interface IBasicDB <T>
     {
     }
 }

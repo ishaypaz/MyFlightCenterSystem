@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FlightCenterSystem.DAO
 {
-    public interface IFlightDAO : IBasicDB <Flight>
+    interface IFlightDAO : IBasicDB <Flight>
     {
     }
 }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FlightCenterSystem
 {
-    public class Country :IPoco
+     class Country :IPoco
     {
-        public int ID { get;protected set; }
+        public int ID { get; set; }
 
-        public int COUNTRY_NAME { get; protected set; }
+        public int COUNTRY_NAME { get;  set; }
 
         public Country()
         {

@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace FlightCenterSystem
 {
-    public class AirlineCompany: IPoco, IUser
+     class AirlineCompany: IPoco, IUser
     {
 
-        public int ID { get; protected set; }
+        public int ID { get;  set; }
 
-        public string AIRLINE_NAME { get; protected set; }
+        public string AIRLINE_NAME { get;  set; }
 
-        public string USER_NAME { get; protected set; }
+        public string USER_NAME { get;  set; }
 
-        public string PASSWORD { get; protected set; }
+        public string PASSWORD { get;  set; }
 
-        public int COUNTRY_CODE { get; protected set; }
+        public int COUNTRY_CODE { get;  set; }
 
         public AirlineCompany()
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FlightCenterSystem.DAO
 {
-    public class TicketDAOMSSQL : ITicketDAO
+    class TicketDAOMSSQL : ITicketDAO
     {
     }
 }

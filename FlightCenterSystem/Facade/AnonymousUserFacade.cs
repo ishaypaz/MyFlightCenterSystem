@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FlightCenterSystem.Facade
 {
-    public class AnonymousUserFacade : FacadeBase
+    class AnonymousUserFacade : FacadeBase
     {
     }
 }

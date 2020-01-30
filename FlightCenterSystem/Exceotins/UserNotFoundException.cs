@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlightCenterSystem.DAO
+namespace FlightCenterSystem.Login
 {
-    public interface ICustomerDAO :IBasicDB <Customer>
+    class UserNotFoundException
     {
+
     }
 }

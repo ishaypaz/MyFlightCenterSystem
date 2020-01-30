@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FlightCenterSystem.Login
 {
-    public class LoginToken <T>
+     class LoginToken <T>
     {
         public int User { get; set; }
     }

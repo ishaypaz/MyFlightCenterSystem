@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FlightCenterSystem.Login
 {
-    public class LoginService
+    class LoginService
     {
+     
     }
 }
