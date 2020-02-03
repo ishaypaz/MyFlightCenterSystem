@@ -16,5 +16,9 @@ namespace FlightCenterSystem
         {
 
         }
+        public override int GetHashCode()
+        {
+            return this.ID;
+        }
     }
 }

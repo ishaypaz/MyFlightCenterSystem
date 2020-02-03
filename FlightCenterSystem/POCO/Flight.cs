@@ -21,5 +21,16 @@ namespace FlightCenterSystem
         public DateTime LANDING_TIME { get;  set; }
 
         public int REMAINING_TICKETS { get;  set; }
+
+        public Flight()
+        {
+
+        }
+        public override int GetHashCode()
+        {
+            return this.ID;
+        }
     }
+ 
+    
 }
